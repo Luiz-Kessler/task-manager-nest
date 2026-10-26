@@ -1,0 +1,10 @@
+GET http://localhost:3000/tasks
+
+### Criar
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+  "title": "Estudar NestJS 2",
+  "description": "Ler sobre módulos"
+}
